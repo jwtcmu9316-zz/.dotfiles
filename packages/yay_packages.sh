@@ -4,5 +4,6 @@ yay -S --noconfirm \
 	i3 \
 	otf-fantasque-sans-mono \
 	tbsm \
+	xorg-xinit \
 	xorg-server \
 	zsh
