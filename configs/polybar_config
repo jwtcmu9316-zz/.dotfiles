@@ -9,8 +9,8 @@ wm-remstack = i3
 override-redirect = true
 font-0 = Fantasque Sans Mono:size=12
 fixed-center = true
-width: 96%
-offset-x: 2%
+width = 96%
+offset-x = 2%
 
 [module/year]
 type = internal/date
@@ -25,6 +25,6 @@ label = %time%
 [module/i3]
 type = internal/i3
 label-focused = %index%
-label-focused-foreground = #f8f8f2
-label-focused-background = #44475a
+label-focused-foreground = #6272a4
+label-focused-background = #00000000
 label-unfocused = %index%
