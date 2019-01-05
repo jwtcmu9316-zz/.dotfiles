@@ -8,6 +8,11 @@
 
 - clean: ['~']
 
+- link: 
+        ~/.config/polybar/config: configs/polybar_config
+        ~/.config/rofi/config.rasi: configs/rofi_config
+        ~/.config/i3/config: configs/i3_config
+
 - shell:
         - [git submodule update --init --recursive, Installing submodules]
         - scripts/install_yay.sh
