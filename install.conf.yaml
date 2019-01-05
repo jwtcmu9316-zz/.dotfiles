@@ -12,3 +12,4 @@
         - [git submodule update --init --recursive, Installing submodules]
         - scripts/install_yay.sh
         - packages/yay_packages.sh
+        - [echo "[[ $XDG_VTNR -le 2 ]] && tbsm" >> ~/.bash_profile, Adding tbsm]
