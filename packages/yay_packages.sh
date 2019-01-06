@@ -7,6 +7,8 @@ yay -Syu --noconfirm \
 	neovim \
 	otf-fantasque-sans-mono \
 	polybar \
+	pulseaudio \
+	pulsemixer \
 	python-pip \
 	rofi \
 	spotify \
