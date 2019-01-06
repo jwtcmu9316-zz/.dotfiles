@@ -1,0 +1,45 @@
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'w0rp/ale'
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-github'
+Plug 'ncm2/ncm2-jedi'
+Plug 'ap/vim-buftabline'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'dracula/vim',  { 'as': 'dracula' }
+Plug 'mhinz/vim-startify'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
+
+call plug#end()
+
+autocmd BufEnter * call ncm2#enable_for_buffer()
+colorscheme dracula
+"colorscheme challenger_deep
+
+let g:ale_fixers = {'python': 'autopep8'}
+let g:lightline = { 'colorscheme': 'Dracula', }
+"let g:lightline = { 'colorscheme': 'challenger_deep', }
+let g:startify_change_to_vcs_root = 1
+let mapleader = " "
+
+set completeopt=noinsert,menuone,noselect
+set hidden nu rnu termguicolors nohlsearch
+
+map <leader>n :enew <cr>
+map <leader>o :FZF <cr>
+map <leader>f :Rg <cr>
+map gT :bprevious <cr>
+map gt :bnext <cr>
+map <leader>w :bd <cr>
+map <leader>s :Startify <cr>
+nnoremap Y y$
+nnoremap <leader>rp :w<cr>: !python3 %<cr>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
