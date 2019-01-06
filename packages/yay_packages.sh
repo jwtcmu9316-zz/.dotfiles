@@ -3,6 +3,7 @@ yay -S --noconfirm \
         compton \
 	google-chrome \
 	i3 \
+	neovim \
 	otf-fantasque-sans-mono \
 	polybar \
 	rofi \
