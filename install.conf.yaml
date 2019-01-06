@@ -19,6 +19,8 @@
 
 - shell:
         - [git submodule update --init --recursive, Installing submodules]
+        -
+          command: sudo pacman -Syu base-devel --noconfirm
         - scripts/install_yay.sh
         - packages/yay_packages.sh
         - packages/python_packages
