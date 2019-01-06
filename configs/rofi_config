@@ -6,7 +6,7 @@
 * {
     background-color:      #00000000;
     border-color:          #00000000;
-    text-color:           #44475a;
+    text-color:           #282a36;
     font:            "Fantasque Sans Mono 12";
 }
 
