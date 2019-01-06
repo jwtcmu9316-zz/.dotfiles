@@ -7,7 +7,7 @@
     background-color:      #00000000;
     border-color:          #00000000;
     text-color:           #f8f8f2;
-    font:            "Hack 12";
+    font:            "Fantasque Sans Mono 12";
 }
 
 #window {
