@@ -6,6 +6,7 @@ yay -S --noconfirm \
 	neovim \
 	otf-fantasque-sans-mono \
 	polybar \
+	python-pip \
 	rofi \
 	tbsm \
 	xorg-xinit \
