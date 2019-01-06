@@ -9,6 +9,8 @@ wm-remstack = i3
 override-redirect = true
 font-0 = Fantasque Sans Mono:size=12
 fixed-center = true
+width = 98%
+offset-x = 1%
 
 [module/year]
 type = internal/date

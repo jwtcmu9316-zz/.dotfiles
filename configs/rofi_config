@@ -13,8 +13,7 @@
 #window {
     anchor:     south;
     location:   south;
-    width:      100%;
-    padding:    4px;
+    width:      98%;
     children:   [ horibox ];
 }
 
