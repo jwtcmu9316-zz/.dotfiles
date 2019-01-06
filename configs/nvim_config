@@ -15,17 +15,14 @@ Plug 'dracula/vim',  { 'as': 'dracula' }
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'challenger-deep-theme/vim', {'as': 'challenger-deep'}
 
 call plug#end()
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
-colorscheme dracula
-"colorscheme challenger_deep
+silent! colorscheme dracula
 
 let g:ale_fixers = {'python': 'autopep8'}
 let g:lightline = { 'colorscheme': 'Dracula', }
-"let g:lightline = { 'colorscheme': 'challenger_deep', }
 let g:startify_change_to_vcs_root = 1
 let mapleader = " "
 
