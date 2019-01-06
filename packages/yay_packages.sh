@@ -1,4 +1,4 @@
-yay -Syu --noconfirm \
+yay -Syu --noconfirm --needed \
 	alacritty \
         compton \
 	feh \

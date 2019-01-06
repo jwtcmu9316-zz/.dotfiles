@@ -20,7 +20,7 @@
 - shell:
         - [git submodule update --init --recursive, Installing submodules]
         -
-          command: sudo pacman -Syu base-devel --noconfirm
+          command: sudo pacman -Syu base-devel --noconfirm --needed
         - scripts/install_yay.sh
         - packages/yay_packages.sh
         - packages/python_packages
