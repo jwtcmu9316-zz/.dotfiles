@@ -23,4 +23,6 @@
           description: Appending tbsm to .bash_profile
         - 
           command: reboot
+        -
+          command: curl -L git.io/antigen > ~/.config/antigen.zsh
 

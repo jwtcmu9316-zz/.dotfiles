@@ -1,0 +1,16 @@
+source ~/.config/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+
+antigen apply
+
+PURE_PROMPT_SYMBOL='→'
+PURE_GIT_DOWN_ARROW='↓'
+PURE_GIT_UP_ARROW='↑'
