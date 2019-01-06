@@ -1,4 +1,4 @@
-pip3 install \
+sudo pip3 install \
 	flake8 \
 	jedi \
 	neovim
