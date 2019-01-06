@@ -1,6 +1,6 @@
 [bar/top]
-modules-center = year
-modules-right = time
+modules-center = 
+modules-right = year time
 modules-left = i3
 background = #00000000
 foreground = #44475a
@@ -9,10 +9,12 @@ wm-remstack = i3
 override-redirect = true
 font-0 = Fantasque Sans Mono:size=12
 fixed-center = true
+width: 96%
+offset-x: 2%
 
 [module/year]
 type = internal/date
-date = "%A, %B %e, %Y"
+date = "%A, %B%e, %Y "
 label = %date%
 
 [module/time]
