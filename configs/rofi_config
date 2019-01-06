@@ -6,7 +6,7 @@
 * {
     background-color:      #00000000;
     border-color:          #00000000;
-    text-color:           #f8f8f2;
+    text-color:           #44475a;
     font:            "Fantasque Sans Mono 12";
 }
 
@@ -38,6 +38,6 @@
     padding: 0px 2px;
 }
 #element selected {
-    background-color: #f8f8f2;
-    text-color: #21222c;
+    background-color: #44475a;
+    text-color: #f8f8f2;
 }
