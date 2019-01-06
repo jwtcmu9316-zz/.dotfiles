@@ -13,6 +13,8 @@
         ~/.config/rofi/config.rasi: configs/rofi_config
         ~/.config/i3/config: configs/i3_config
         ~/.config/compton.conf: configs/compton_config
+        ~/.zshrc: configs/zsh_config
+        ~/.config/alacritty/alacritty.yml: configs/alacritty_config
 
 - shell:
         - [git submodule update --init --recursive, Installing submodules]
