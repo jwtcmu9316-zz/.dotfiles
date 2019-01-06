@@ -1,4 +1,4 @@
-sudo yay -Syu --noconfirm \
+yay -Syu --noconfirm \
 	alacritty \
         compton \
 	google-chrome \
