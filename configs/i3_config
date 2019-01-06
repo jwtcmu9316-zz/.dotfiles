@@ -9,7 +9,7 @@
 # layout, use the i3-config-wizard
 #
 
-exec --nostartup-id compton
+exec --no-startup-id compton
 exec --no-startup-id polybar top
 exec --no-startup-id feh --bg-scale ~/.dotfiles/background.png 
 
