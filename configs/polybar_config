@@ -3,7 +3,7 @@ modules-center = year
 modules-right = time
 modules-left = i3
 background = #00000000
-foreground = #f8f8f2
+foreground = #44475a
 height = 25
 wm-remstack = i3
 override-redirect = true
@@ -23,6 +23,6 @@ label = %time%
 [module/i3]
 type = internal/i3
 label-focused = %index%
-label-focused-foreground = #21222c
-label-focused-background = #f8f8f2
+label-focused-foreground = #f8f8f2
+label-focused-background = #44475a
 label-unfocused = %index%
