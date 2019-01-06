@@ -1,6 +1,7 @@
 yay -Syu --noconfirm \
 	alacritty \
         compton \
+	feh \
 	google-chrome \
 	i3 \
 	neovim \
