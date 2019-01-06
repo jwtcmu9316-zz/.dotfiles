@@ -22,12 +22,13 @@ autocmd BufEnter * call ncm2#enable_for_buffer()
 silent! colorscheme dracula
 
 let g:ale_fixers = {'python': 'autopep8'}
-let g:lightline = { 'colorscheme': 'Dracula', }
+let g:lightline = {'colorscheme': 'Dracula'}
 let g:startify_change_to_vcs_root = 1
 let mapleader = " "
 
 set completeopt=noinsert,menuone,noselect
 set hidden nu rnu termguicolors nohlsearch
+set icm=nosplit
 
 map <leader>n :enew <cr>
 map <leader>o :FZF <cr>
