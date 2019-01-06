@@ -8,6 +8,7 @@ yay -Syu --noconfirm \
 	polybar \
 	python-pip \
 	rofi \
+	spotify \
 	tbsm \
 	xorg-xinit \
 	xorg-server \
