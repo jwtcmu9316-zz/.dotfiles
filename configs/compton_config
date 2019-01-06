@@ -1,0 +1,5 @@
+shadow-exclude = [
+ "name = 'rofi'"
+];
+shadow = true;
+no-dock-shadow = true;

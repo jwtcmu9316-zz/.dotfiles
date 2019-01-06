@@ -1,5 +1,6 @@
 yay -S --noconfirm \
 	alacritty \
+        compton \
 	google-chrome \
 	i3 \
 	otf-fantasque-sans-mono \
