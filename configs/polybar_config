@@ -5,7 +5,7 @@ modules-left = i3
 background = #00000000
 foreground = #282a36
 height = 25
-wm-remstack = i3
+wm-restack = i3
 override-redirect = true
 font-0 = Fantasque Sans Mono:size=12
 fixed-center = true
