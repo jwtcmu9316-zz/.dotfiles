@@ -24,4 +24,9 @@
         - scripts/install_yay.sh
         - packages/yay_packages.sh
         - packages/python_packages
-        - scripts/shell_scripts.sh
+        -
+          command: scripts/shell_scripts.sh
+          description: Running shell_scripts...
+          stdout: true
+          stdin: true
+          

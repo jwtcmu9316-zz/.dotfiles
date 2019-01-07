@@ -3,7 +3,7 @@ yay -Syu --noconfirm --needed \
         compton \
 	feh \
 	google-chrome \
-	i3 \
+	i3-gaps \
 	neovim \
 	otf-fantasque-sans-mono \
 	polybar \

@@ -17,7 +17,8 @@ if ! grep -q nvim ~/.gitconfig; then
 	git config --global core.editor "nvim"
 fi
 
-read -p "Would you like to reboot? " -n 1 -r
+echo 'Would you like to reboot? (y/n)'
+read -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	sudo reboot
