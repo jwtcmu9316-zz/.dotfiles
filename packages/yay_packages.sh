@@ -10,6 +10,7 @@ yay -Syu --noconfirm --needed \
 	pulseaudio \
 	pulsemixer \
 	python-pip \
+	ripgrep \
 	rofi \
 	spotify \
 	tbsm \
